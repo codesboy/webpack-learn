@@ -33,6 +33,7 @@ module.exports = {
     ],
 
     // 安装：npm install --save-dev webpack-dev-server
+    // 运行webpack-dev-server的方式：如果是全局安装 可以直接执行命令webpack-dev-server，如果是只在本项目里安装，需要在package.json里配置scripts 然后通过npm run xxx来运行
     devServer:{
         contentBase:"./public",//本地服务器所加载的页面所在的目录
         // colors:true,//终端颜色为彩色 这一项会报错
